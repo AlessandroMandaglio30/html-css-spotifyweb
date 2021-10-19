@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 #app{
@@ -54,7 +55,6 @@ body{
   }
   
 .home ul li i {
-
     font-size: 40px;
     margin-right: 10px;
 }
@@ -64,11 +64,57 @@ body{
     padding: 7px 7px 0;
 }
 
+/* SIDEBAR */
 
+#sidebar{
+    display: flex;
+    flex-direction: column;
+}
 
+.sidebar-top{
+    flex-grow: 1;
+    background: black;
+    padding: 15px 0;
+}
 
+.sidebar-bassa{
+    background: black;
+    padding-left: 20px;
+}
 
+.john img{
+    margin: 5px;
+    background-color: gray;
+    width: 20px;
+    border-radius: 50%;
+}
 
+.john a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.john{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.download{
+    padding: 10px;
+}
+
+.download a{
+    font-size: 14px;
+    color: #747474;
+    text-decoration: none;
+}
+
+.download i{
+    font-size: 12px;
+}
 /* DEBUG */
 .debug main{
     width: 100%;
