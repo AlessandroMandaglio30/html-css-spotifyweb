@@ -178,6 +178,59 @@ body{
     border: 3px solid transparent;
 }
 
+.cover{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album{
+    flex-basis: calc(100% / 6);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 0;
+}
+
+.album img{
+    max-width: 100%;
+    display: block;
+}
+
+.album h5{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.album h6{
+    color: #747474;
+}
+
+.img-hover{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay i{
+    color: white;
+    font-size: 40px;
+    display: none;
+}
+
+.img-hover:hover .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+  
+.img-hover:hover .overlay i {
+    display: block;
+}
 /* DEBUG */
 .debug main{
     width: 100%;
