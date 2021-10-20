@@ -20,6 +20,17 @@ body{
     display: flex;
     background-color: black;
 }
+.logo1 {
+    display: block;
+}
+
+.logo2 img {
+    width: 10px;
+}
+
+.logo2 {
+    display: none;
+  }
 
 .logo-spotify img{
     width: 160px;
@@ -51,7 +62,8 @@ body{
     padding-left: 15px;
   }
   
-.home ul {
+.home ul ,
+.content-menu ul {
     list-style: none;
   }
   
@@ -215,7 +227,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    width: 99%;
 }
 
 .overlay i{
@@ -236,6 +248,85 @@ body{
 .content-categoria:nth-last-child(1) .img-hover .overlay {
   border-radius: 50%;
 }
+
+/* FOOTER */
+
+#player{
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.song{
+    display: flex;
+    align-items: center;
+}
+
+.song img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.text{
+    margin-right: 30px;
+}
+
+.btn-spoti a{
+    margin-right: 10px;
+    color: #747474
+}
+
+.icons li {
+    display: inline-block;
+}
+  
+.icons a {
+    color: white;
+    font-size: 15px;
+    margin: 13px;
+}
+  
+.icons .fa-play-circle{
+    font-size: 20px;
+}
+
+.player-bar {
+    display: flex;
+    align-items: center;
+}
+
+.player-bar span{
+    font-size: 12px;
+    margin: 15px;
+}
+
+.play {
+    flex-basis: 600px;
+    text-align: center;
+}
+  
+.line {
+    position: relative;
+    background-color: grey;
+    height: 3px;
+    flex-grow: 1;
+}
+  
+.impostazioni {
+    display: flex;
+    align-items: center;
+}
+
+.impostazioni i {
+    color: white;
+    margin-right: 20px;
+}
+
+.line.line-inline {
+    width: 100px;
+}
+
 
 /* DEBUG */
 /* .debug main{
