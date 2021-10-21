@@ -262,6 +262,11 @@ body{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .song{
@@ -481,11 +486,9 @@ body{
 
     }
     .playlist{
-        display: block;
-        overflow-y: scroll;
-        width: 150px;
-        height: 150px;
-        scrollbar-color : #778899;
+        height: 300px;
+        background-color: black;
+        overflow: scroll;
     }
   }
 
