@@ -372,7 +372,11 @@ body{
       padding-top: 30px;
       margin-right: 20px;
     }
-  
+    .icons a{
+        color: white;
+        font-size: 10px;
+         margin: 5px;
+    }
     .line:before {
       content: '';
       position: absolute;
@@ -409,6 +413,7 @@ body{
     .logo1{
       display: none;
     }
+
     .naviga{
       position: relative;
     }
@@ -416,13 +421,15 @@ body{
     .naviga-link span {
       display: none;
     }
-    .playlist {
+    
+    .playlist  {
       display: none;
     }
+    
     .logo2{
       display: block;
-  
     }
+
     .logo-spotify img {
       width: 70px;
       padding-left: 25px;
@@ -433,7 +440,13 @@ body{
       padding-top: 30px;
       margin-right: 20px;
     }
-  
+
+    .icons a {
+        color: white;
+        font-size: 5px;
+        margin: 0px;
+    }
+
     .line:before {
       content: '';
       position: absolute;
@@ -456,8 +469,9 @@ body{
       background-color: white;
       border-radius: 50%;
     }
-  
   }
+
+
 /* DEBUG */
 /* .debug main{
     width: 100%;
